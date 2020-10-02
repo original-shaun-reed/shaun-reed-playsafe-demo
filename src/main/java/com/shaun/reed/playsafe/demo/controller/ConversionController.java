@@ -4,6 +4,7 @@ import com.shaun.reed.playsafe.demo.request.KelvinRequest;
 import com.shaun.reed.playsafe.demo.request.MilesRequest;
 import com.shaun.reed.playsafe.demo.request.PoundsRequest;
 import com.shaun.reed.playsafe.demo.response.CelsiusResponse;
+import com.shaun.reed.playsafe.demo.response.ErrorResponse;
 import com.shaun.reed.playsafe.demo.response.KilogramsResponse;
 import com.shaun.reed.playsafe.demo.response.KilometersResponse;
 import org.springframework.http.HttpStatus;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class ConversionController {
   private static final Float CELSIUS_DEFAULT = new Float(273.15F);
-  private static final Double KG_DEFAULT = new Double(0.454);
+  private static final Double KG_DEFAULT = new Double(0.453592);
   private static final Double KM_DEFAULT =  new Double(1.60934);
 
   // Conversion from pounds to kelvin to celsius
