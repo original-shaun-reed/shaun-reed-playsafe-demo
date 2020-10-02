@@ -4,7 +4,7 @@ IntelliJ was used while developing this maven project, using Spring/Spring Boot 
 
 When cloning this project and opening in the IDE, please make sure that the maven dependencies are imported, when that is done you may run the project
 ***
-#NB: I made use of the LOMBOK plugin to save myself time from unnecessary creation of getters and setters in my POJOs. Please install that plugin if it doesn't pull through from the when importing maven dependencies  
+##NB: I made use of the LOMBOK plugin to save myself time from unnecessary creation of getters and setters in my POJOs. Please install that plugin if it doesn't pull through from the **pom.xml** file when importing maven dependencies  
 ***
 
 When running this project the default host will be  **http://localhost:8080** 
